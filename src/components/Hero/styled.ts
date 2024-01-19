@@ -21,20 +21,20 @@ export const Form = styled.form`
     opacity: 0.7;
 
     @media (max-width: 768px) {
-        height: auto;
-        padding: 24px 0;
+      height: auto;
+      padding: 24px 0;
+    }
   }
 
   div {
     position: relative;
-
+    color: #eee;
   }
 `
 
 export const HeroTittle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
-  z-index: 1;
 
   @media (max-width: 768px) {
     font-size: 32px;
